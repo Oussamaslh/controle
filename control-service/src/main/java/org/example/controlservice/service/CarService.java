@@ -1,9 +1,6 @@
 package org.example.controlservice.service;
 
 
-
-
-
 import org.example.controlservice.dto.CarDTO;
 import org.springframework.stereotype.Service;
 
@@ -20,8 +17,7 @@ public class CarService {
 
         // return carRepository.findAll(); // Suppose que tu utilises un repository JPA
         return List.of(
-                new CarDTO("Model1", "Red", "ABC123", 15000.0),
-                new CarDTO("Model2", "Blue", "XYZ456", 20000.0)
+
         );
     }
 
